@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../img/avatar.jpg);
+  color: wheat;
+  text-shadow: 2px 2px 2px black;
+  background-size: cover;
+  min-height: 100vh;
+  font-family: sans-serif;
+  background-position: 26% 50%;
+  margin: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-top: 1px;
+  font-weight: normal;
+  text-decoration: underline;
+  color: red;
+  text-shadow: 2px 2px 2px black;
+}
+
+.contador-contenedor {
+  display: flex;
+
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.texto-grande {
+  font-size: 6rem;
+  line-height: 1;
+  margin: 0.7rem 6rem;
+  font-weight: bold;
+}
+
+.contador-free {
+  text-align: center;
+}
+
+.contador-contenedor span {
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 1500px) {
+  .contador-contenedor {
+    margin-right: 21rem;
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    color: wheat;
+  }
+
+  .body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  h1 {
+    font-size: 3.4rem;
+    text-decoration: underline;
+  }
+}
